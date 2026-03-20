@@ -1,0 +1,16 @@
+Bandlet-native VAE API smoke results
+===================================
+
+Environment
+- Python 3.13
+- PyTorch available
+- CPU smoke tested in container
+
+Validation
+- pytest: 2 passed
+- bandlet transform roundtrip test: passed
+- native VAE forward/loss test: passed
+
+Notes
+- This package is bandlet-native in the sense that the encoder starts with bandlet analysis and the decoder ends with bandlet synthesis.
+- Current implementation supports grayscale inputs (in_channels=1).
