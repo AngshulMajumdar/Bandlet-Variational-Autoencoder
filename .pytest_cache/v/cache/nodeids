@@ -1,0 +1,4 @@
+[
+  "tests/test_latent_roundtrip.py::test_latent_roundtrip_cuda_or_cpu",
+  "tests/test_native_vae.py::test_bandlet_native_vae_forward_and_loss"
+]
